@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Cena dokopy: " + cenaPrvehoDomu + cenaDruhehoDomu);
 
         ObchodnyDom Billa = new ObchodnyDom(2600f, 2, 25);
-
+        Billa.vypocetCenyObchodu();
 
     }
 }

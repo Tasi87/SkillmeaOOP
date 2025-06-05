@@ -10,7 +10,7 @@ public class ObchodnyDom {
     }
 
     public float vypocetCenyObchodu(){
-        float cena = (rozloha * pocetPoschodi) + 5000 * pocetPokladni;
+        float cena = (rozloha * pocetPoschodi * 500) + 5000 * pocetPokladni;
         System.out.println("Cena obchodu: " + cena);
         return cena;
     }
