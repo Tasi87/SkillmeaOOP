@@ -14,5 +14,8 @@ public class Main {
         ObchodnyDom Billa = new ObchodnyDom(2600f, 2, 25);
         Billa.vypocetCenyObchodu();
 
+        // Miesto pre zverimex
+        Pes alik = new Pes(4, "česko-slovenský vlčiak", 25, 2);
+        Macka cica = new Macka(4, "orech", 5, 2);
     }
 }
