@@ -4,10 +4,10 @@ public class RodinnyDom {
     private float rozloha;
     private int pocetOkien;
 
-    RodinnyDom(int pocPos, String mat, float roz) {
-        pocetPoschodi = pocPos;
-        material = mat;
-        rozloha = roz;
+    RodinnyDom(int pocetPoschodi, String material, float rozloha) {
+        this.pocetPoschodi = pocetPoschodi;
+        this.material = material;
+        this.rozloha = rozloha;
     }
 
 
