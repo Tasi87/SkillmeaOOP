@@ -2,9 +2,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-
         //Random ranNum = new Random();
-
         RodinnyDom domNovakovych = new RodinnyDom(4, "mramor", 457f);
         float cenaPrvehoDomu = domNovakovych.vypocetCenyDomu(150, "Novakovy");
 
@@ -13,12 +11,7 @@ public class Main {
 
         System.out.println("Cena dokopy: " + cenaPrvehoDomu + cenaDruhehoDomu);
 
-
-        /*
-        String nejakyText = "niečo";
-                    =
-        String nejakyText = new String("niečo");
-        */
+        ObchodnyDom Billa = new ObchodnyDom(2600f, 2, 25);
 
 
     }
