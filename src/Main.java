@@ -20,5 +20,12 @@ public class Main {
 
         Macka cica = new Macka(4, "egyptská", 5, 2);
         cica.urobZvuk();
+
+        // Miesto pre banku
+
+        Banka mBank = new Banka(5, 1000f, 3.25f, 5f);
+        System.out.println(mBank.vypocetSporiacehoUctu());
+
+
     }
 }
