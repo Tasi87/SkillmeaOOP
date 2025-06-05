@@ -16,6 +16,9 @@ public class Main {
 
         // Miesto pre zverimex
         Pes alik = new Pes(4, "česko-slovenský vlčiak", 25, 2);
-        Macka cica = new Macka(4, "orech", 5, 2);
+        alik.urobZvuk();
+
+        Macka cica = new Macka(4, "egyptská", 5, 2);
+        cica.urobZvuk();
     }
 }

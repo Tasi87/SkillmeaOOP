@@ -6,4 +6,8 @@ public class Macka extends Zviera {
         this.vek = vek;
     }
 
+    public void urobZvuk() {
+        System.out.println("Miau");
+    }
+
 }
