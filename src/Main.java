@@ -10,16 +10,16 @@ public class Main {
         domNovakovych.rozloha = 457f;
         domNovakovych.material = "mramor";
         domNovakovych.pocetOkien = 16;
-        domNovakovych.vypocetCenyDomu(150, "Novakovy");
+        float cenaPrvehoDomu = domNovakovych.vypocetCenyDomu(150, "Novakovy");
 
         RodinnyDom domKralickovych = new RodinnyDom();
         domKralickovych.pocetPoschodi = 3;
         domKralickovych.rozloha = 657f;
         domKralickovych.material = "tehla";
         domKralickovych.pocetOkien = 12;
-        domKralickovych.vypocetCenyDomu(200, "Kralickovy");
+        float cenaDruhehoDomu = domKralickovych.vypocetCenyDomu(200, "Kralickovy");
 
-
+        System.out.println("Cena dokopy: " + cenaPrvehoDomu + cenaDruhehoDomu);
 
 
         /*
