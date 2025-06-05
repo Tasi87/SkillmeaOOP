@@ -1,11 +1,13 @@
 public class RodinnyDom {
-    int pocetPoschodi;
-    String material;
-    float rozloha;
-    int pocetOkien;
+    private int pocetPoschodi;
+    private String material;
+    private float rozloha;
+    private int pocetOkien;
 
-    RodinnyDom() {
-        System.out.println("Teraz sa volá konštruktor!");
+    RodinnyDom(int pocPos, String mat, float roz) {
+        pocetPoschodi = pocPos;
+        material = mat;
+        rozloha = roz;
     }
 
 
