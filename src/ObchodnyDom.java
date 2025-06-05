@@ -1,6 +1,4 @@
-public class ObchodnyDom {
-    private float rozloha;
-    private int pocetPoschodi;
+public class ObchodnyDom extends Stavba {
     private int pocetPokladni;
 
     ObchodnyDom (float rozloha, int pocetPoschodi, int pocetPokladni) {

@@ -1,7 +1,5 @@
-public class RodinnyDom {
-    private int pocetPoschodi;
+public class RodinnyDom extends Stavba {
     private String material;
-    private float rozloha;
     private int pocetOkien;
 
     RodinnyDom(int pocetPoschodi, String material, float rozloha) {
